@@ -2,7 +2,7 @@
     "name": "amphp/mysql",
     "description": "Asynchronous parallel Mysql client built on the Amp concurrency framework",
     "require": {
-        "amphp/amp": "^2",
+        "amphp/amp": "dev-ignore-unreference-during-gc as 2.0.6",
         "amphp/socket": "^0.10"
     },
     "license": "MIT",
