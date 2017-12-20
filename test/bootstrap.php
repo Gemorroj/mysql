@@ -1,5 +1,7 @@
 <?php
 
+ini_set("log_errors_max_len", 0);
+
 require __DIR__.'/../vendor/autoload.php';
 
 const DB_HOST = 'localhost:10101';
